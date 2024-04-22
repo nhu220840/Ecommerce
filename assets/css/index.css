@@ -32,3 +32,30 @@ body {
     font-size: 16px;
 }
 /* style common */
+
+/* 1. Style layout */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px dashed red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_menu {
+    display: flex;
+}
+
+ul.pages_link {
+    display: flex;
+}
+
+ul.search {
+    display: flex;
+}
+/* 1. Style layout */
+
