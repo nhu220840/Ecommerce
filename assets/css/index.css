@@ -59,3 +59,15 @@ ul.search {
 }
 /* 1. Style layout */
 
+/* 2. Style detail image */
+.logo a {
+    display: block;
+    width: 182px;
+}
+
+.logo a img {
+    display: block;
+    max-width: 100%;
+}
+/* 2. Style detail image */
+
