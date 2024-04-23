@@ -71,3 +71,24 @@ ul.search {
 }
 /* 2. Style detail image */
 
+
+/* 3. Style detail right menu */
+.pages_link li a {
+    display: inline-block;
+    color: var(--color-black);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 10px;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+
+.pages_link li a:hover {
+    color: var(--color-red);
+}
+
+.pages_link li a.active {
+    color: var(--color-red);
+}
+/* 3. Style detail right menu */
+
