@@ -48,6 +48,7 @@ nav {
 
 .right_menu {
     display: flex;
+    align-items: center;
 }
 
 ul.pages_link {
@@ -56,6 +57,7 @@ ul.pages_link {
 
 ul.search {
     display: flex;
+    margin-left: 10px;
 }
 /* 1. Style layout */
 
@@ -71,8 +73,7 @@ ul.search {
 }
 /* 2. Style detail image */
 
-
-/* 3. Style detail right menu */
+/* 3. Style pages link */
 .pages_link li a {
     display: inline-block;
     color: var(--color-black);
@@ -90,5 +91,17 @@ ul.search {
 .pages_link li a.active {
     color: var(--color-red);
 }
-/* 3. Style detail right menu */
+/* 3. Style pages link */
+
+/* 4. Style search menu */
+.search li {
+    padding: 12px 10px;
+    transition: all .5s;
+}
+
+.search li:hover {
+    cursor: pointer;
+    color: var(--color-red);
+}
+/* 4. Style search menu */
 
