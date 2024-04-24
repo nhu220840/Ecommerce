@@ -276,5 +276,17 @@ ul.search {
     color: var(--color-grey);
     font-size: 14px;
 }
+
+/* If the number of product items is odd, justify-content can make distance between each item bigger.
+How to solve this problem?
+
+We can add more empty items such that the number of items is divisible by 4.
+If we have 5 items, we can add 3 empty items and make them invisible. */
+
+/* .product-item:empty {
+    height: 0;
+    box-shadow: none;
+} */
+
 /* 3. Style product information */
 /* =========================End Products============================= */
