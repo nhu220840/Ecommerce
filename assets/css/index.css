@@ -213,8 +213,13 @@ ul.search {
     box-shadow: 1px 1px 7px rgb(0, 0, 0, 0.1);
 }
 
+.product-item .product-image a {
+    display: block;
+}
+
 .product-item .product-image img {
     max-width: 100%;
+    display: block;
 }
 /* 1.Style layout */
 
