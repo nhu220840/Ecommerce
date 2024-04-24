@@ -126,6 +126,7 @@ ul.search {
 
 
 /* =========================Start Banner========================= */
+/* 1. Style layout */
 .banner-full {
     background: var(--color-grey-white);
 }
@@ -144,4 +145,13 @@ ul.search {
     width: calc(60% - 8%);
     margin-left: 8%;
 }
+/* 1. Style layout */
+
+/* 2. Style image */
+.banner .image img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* 2. Style image */
 /* =========================End Banner=========================== */
