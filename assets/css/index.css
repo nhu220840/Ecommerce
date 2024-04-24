@@ -224,4 +224,24 @@ ul.search {
     margin: 40px 0;
 }
 /* 2. Style product's title */
+
+/* 3. Style product information */
+.product-info {
+    padding: 15px;
+}
+
+.product-info > h6 {
+    margin-bottom: 8px;
+}
+
+.product-info > h6 > a {
+    font-size: 16px;
+    color: var(--color-black);
+    font-weight: 500;
+}
+
+.product-info > h6 > a:hover {
+    color: var(--color-red);
+}
+/* 3. Style product information */
 /* =========================End Products============================= */
