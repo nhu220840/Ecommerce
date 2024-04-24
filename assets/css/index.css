@@ -243,5 +243,36 @@ ul.search {
 .product-info > h6 > a:hover {
     color: var(--color-red);
 }
+
+.product-price {
+    margin-bottom: 8px;
+}
+
+.product-price span:first-child {
+    color: var(--color-red);
+    font-weight: 600;
+}
+
+.product-price span:nth-child(2) {
+    color: var(--color-grey);
+    font-size: 14px;
+    display: inline-block;
+    margin: 0 4px;
+    text-decoration: line-through;
+}
+
+.product-price span:last-child{
+    color: var(--color-green);
+}
+
+.product-rating i {
+    color: var(--color-yellow);
+    font-size: 14px;
+}
+
+.product-rating span {
+    color: var(--color-grey);
+    font-size: 14px;
+}
 /* 3. Style product information */
 /* =========================End Products============================= */
