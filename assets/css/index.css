@@ -141,7 +141,7 @@ ul.search {
 }
 
 .banner .content {
-    width: calc(60% - 120px);
-    margin-left: 120px;
+    width: calc(60% - 8%);
+    margin-left: 8%;
 }
 /* =========================End Banner=========================== */
