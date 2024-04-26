@@ -321,6 +321,21 @@ Now we just set up box-shadow for product-item-nested and obtain the layout as e
     width: 33.3333%;
     padding: 0 40px;
     text-align: center;
+    position: relative;
+}
+
+.service-box .service-box-item::before {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 20%;
+    bottom: 20%;
+    width: 1px;
+    background: #ddd;
+}
+
+.service-box .service-box-item:last-child::before {
+    content: normal;
 }
 /* 1. Style layout */
 
