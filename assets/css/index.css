@@ -309,6 +309,10 @@ Now we just set up box-shadow for product-item-nested and obtain the layout as e
 
 /* =========================Start Service============================= */
 /* 1. Style layout */
+.service-full {
+    margin-top: 50px;
+}
+
 .service-box {
     display: flex;
 }
@@ -319,5 +323,27 @@ Now we just set up box-shadow for product-item-nested and obtain the layout as e
     text-align: center;
 }
 /* 1. Style layout */
+
+/* 2. Style detail for service */
+.box-image {
+    margin-bottom: 10px;
+}
+
+.box-image span {
+    font-size: 50px;
+    color: var(--color-grey);
+}
+
+.box-content h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-black);
+    margin-bottom: 8px;
+}
+
+.box-content p {
+    color: var(--color-grey);
+}
+/* 2. Style detail for service */
 /* =========================End Service=============================== */
 
