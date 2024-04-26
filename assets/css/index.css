@@ -302,3 +302,22 @@ Now we just set up box-shadow for product-item-nested and obtain the layout as e
 
 /* 3. Style product information */
 /* =========================End Products============================= */
+
+
+
+
+
+/* =========================Start Service============================= */
+/* 1. Style layout */
+.service-box {
+    display: flex;
+}
+
+.service-box .service-box-item {
+    width: 33.3333%;
+    padding: 0 40px;
+    text-align: center;
+}
+/* 1. Style layout */
+/* =========================End Service=============================== */
+
